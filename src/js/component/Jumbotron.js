@@ -1,3 +1,6 @@
+import React from "react";
+import PropTypes from 'prop-types';
+
 const Jumbotron = (props) => {
 	return (
 		<div className="jumbotron m-5">
@@ -14,3 +17,5 @@ Jumbotron.propTypes = {
 	buttonURL: PropTypes.string,
 	buttonLabel: PropTypes.string,
 };
+
+export default Jumbotron;
